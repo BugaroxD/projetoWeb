@@ -1,7 +1,7 @@
-<nav>
+<nav class="main">
     <ul>
         <li><a href="index.php">Inicial</a></li>
-        <li><a href="campos.php">Cabeça</a></li>
-        <li><a href="contato.php">Pé</a></li>
+        <li><a href="sobre.php">Sobre</a></li>
+        <li><a href="contato.php">Contato</a></li>
     </ul>
 </nav>
