@@ -1,21 +1,12 @@
 body {
   font-family: sans-serif;
 }
-.container {
-  max-width: 1330px;
-  margin: 0 auto; /*Centralizar
-    elementos block*/
+
+nav.main ul {
+  padding: 0;
+  margin: 0;
 }
 
-button {
-  border-style: solid;
-  border-width: 1px;
-  border-color: yellowgreen;
-  color: red;
-  border-radius: 10px;
-}
-
-button:hover {
-  background-color: darkmagenta;
-  color: pink;
+nav.main ul li {
+  list-style: none;
 }
