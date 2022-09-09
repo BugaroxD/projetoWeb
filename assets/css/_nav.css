@@ -1,0 +1,40 @@
+nav.main {
+  background-color: black;
+  box-shadow: 0 0 50px black(0, 0, 0, 0.05);
+}
+
+nav.main ul {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+}
+nav.main ul li {
+  list-style: none;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+}
+
+nav.main ul li img {
+  max-width: 100px;
+  height: auto;
+}
+
+nav.main ul li a {
+  color: lightyellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 1s;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+nav.main ul li a:hover {
+  color: yellow;
+  background-color: black;
+}

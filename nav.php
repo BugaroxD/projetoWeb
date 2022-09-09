@@ -1,5 +1,8 @@
 <nav class="main">
-    <ul>
+    <ul class="container">
+        <li>
+            <img src="assets/images/reborn.jpg">
+        <li>
         <li><a href="index.php">Inicial</a></li>
         <li><a href="sobre.php">Sobre</a></li>
         <li><a href="contato.php">Contato</a></li>
