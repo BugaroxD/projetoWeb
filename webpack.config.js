@@ -1,10 +1,7 @@
-const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = (env) => {
   return {
     mode: env.production ? "production" : "development",
-    entry: "./src/js/index.js",
+    entry: "./src/js/app.js",
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "assets/js/[name].js",
@@ -38,7 +35,7 @@ module.exports = (env) => {
         },
         {
           test: /\.(jpe?g|png|gif|svg)$/i,
-          type: "asset",
+          type: "assets",
           parser: {
             dataUrlCondition: {
               maxSize: 5 * 1024,
@@ -59,15 +56,5 @@ module.exports = (env) => {
         },
       ],
     },
-    plugins: [
-      new MiniCssExtractPlugin({
-        filename: "assets/css/[name].css",
-      }),
-      new HtmlWebpackPlugin({
-        template: "./src/index.html",
-        filename: "index.html",
-        inject: "body",
-      }),
-    ],
   };
 };

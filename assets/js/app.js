@@ -1,16 +1,9 @@
 console.log("Hello World");
-
-// const button =
-
-const stages = document.querySelectorAll(".stage");
-
-stages.forEach((el) => {
-  const h1 = el.querySelector("h1");
-  const button = el.querySelector("button");
-  const message = el.querySelector("div#message");
-  button.addEventListener("click", (e) => {
-    message.innerHTML = "Oi, Tudo bem?";
-    //el.querySelectorAll("button");
-    console.log("Este elemento", el);
-  });
-});
+/*
+const names = ["Jeff", "Jose", "Rhino", "Caue"];
+const div = document.getElementById("nomes")
+// create a loop trough array names and insert each name in the div
+for (let i = 0) i < names.length; i++) {
+    div.innerHTML += names[i] + " ";
+}
+*/
