@@ -1,4 +1,4 @@
-<?php
+<head><link href="src/scss/app.css" rel="stylesheet"></head><?php
 include "header.php";
 ?>
 
@@ -22,4 +22,4 @@ include "header.php";
 
     <?php
     include "footer.php";
-    ?>
+    ?><script defer src="src/js/app.js"></script>

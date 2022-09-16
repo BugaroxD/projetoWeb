@@ -1,7 +1,7 @@
 <nav class="main">
     <ul class="container">
         <li>
-            <img src="assets/images/reborn.jpg">
+            <img src="src/images/reborn.jpg">
         <li>
         <li><a href="index.php">Inicial</a></li>
         <li><a href="sobre.php">Sobre</a></li>

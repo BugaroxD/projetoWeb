@@ -1,4 +1,11 @@
-console.log("Hello World");
+import "../scss/app.css";
+("use-strict");
+
+const fn = (val) => {
+  return console.log(val);
+};
+
+fn("oi" + "feliz");
 /*
 const names = ["Jeff", "Jose", "Rhino", "Caue"];
 const div = document.getElementById("nomes")

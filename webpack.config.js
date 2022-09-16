@@ -1,16 +1,20 @@
+const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = (env) => {
   return {
     mode: env.production ? "production" : "development",
-    entry: "./src/js/app.js",
+    entry: { app: "./src/js/app.js" },
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "assets/js/[name].js",
+      filename: "src/js/[name].js",
       assetModuleFilename(module) {
         module.filename = module.filename
           .normalize("NFD")
           .replace(/[\s]/g, "_")
           .replace(/[\u0300-\u036f]/g, "");
-        return "assets/images/[name][ext]";
+        return "src/images/[name][ext]";
       },
     },
     module: {
@@ -35,7 +39,7 @@ module.exports = (env) => {
         },
         {
           test: /\.(jpe?g|png|gif|svg)$/i,
-          type: "assets",
+          type: "asset",
           parser: {
             dataUrlCondition: {
               maxSize: 5 * 1024,
@@ -56,5 +60,15 @@ module.exports = (env) => {
         },
       ],
     },
+    plugins: [
+      new MiniCssExtractPlugin({
+        filename: "src/scss/[name].css",
+      }),
+      new HtmlWebpackPlugin({
+        template: "index.php",
+        filename: "index.php",
+        inject: "body",
+      }),
+    ],
   };
 };

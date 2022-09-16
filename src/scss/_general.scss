@@ -21,6 +21,7 @@ html {
 .row {
   display: flex;
 }
+
 /*Sistema em Grid*/
 
 .col-6 {
@@ -38,4 +39,9 @@ html {
   .col-4 {
     flex-basis: 100%;
   }
+}
+
+.col-12 {
+  flex-basis: 100%;
+  padding: 0 20px;
 }

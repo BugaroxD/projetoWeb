@@ -5,7 +5,7 @@ include "header.php";
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <img src="assets/images/rebornLogo.jpg" alt="Imagem aleatória" class="img-fluid">
+            <img src="src/images/rebornLogo.jpg" alt="Imagem aleatória" class="img-fluid">
             <h1>Classes</h1>
             <p><strong>Lutador:</strong> são extremamente equilibrados, tornando-se ótimas escolhas para quem está começando. Seu poder especial é uma sequencia de sete golpes que arrasam os inimigos.</p>
             <p><strong>Super-Herói:</strong> São os mais fortes do espaço, com um poder de ataque muito grande. Com sua "Explosão Congelante" conseguem atingir vários adversários em uma grande área.</p>

@@ -5,7 +5,7 @@ include "header.php";
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <img src="assets/images/rebornLogo.jpg" alt="Imagem aleatória" class="img-fluid">
+            <img src="src/images/rebornLogo.jpg" alt="Imagem aleatória" class="img-fluid">
             <h1>História</h1>
             <p> No ano de 2999, a humanidade está dividida em confrontos inacabáveis no fim do milênio.</p>
             <p> O caos se espalhou pelos continentes e os dominantes poderosos caíram dos seus respectivos tronos.</p>
