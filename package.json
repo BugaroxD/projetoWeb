@@ -7,7 +7,7 @@
     "watch": "webpack --watch",
     "build": "webpack"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.0",
     "@babel/preset-env": "^7.19.0",
