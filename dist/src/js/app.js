@@ -16,17 +16,17 @@
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.css */ \"./src/scss/app.css\");\n\n\"use-strict\";\n\nvar fn = function fn(val) {\n  return console.log(val);\n};\n\nfn(\"oi\" + \"feliz\");\n/*\nconst names = [\"Jeff\", \"Jose\", \"Rhino\", \"Caue\"];\nconst div = document.getElementById(\"nomes\")\n// create a loop trough array names and insert each name in the div\nfor (let i = 0) i < names.length; i++) {\n    div.innerHTML += names[i] + \" \";\n}\n*/\n\n//# sourceURL=webpack://projetoWeb/./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.scss */ \"./src/scss/app.scss\");\n\n\"use-strict\";\n\nvar fn = function fn(val) {\n  return console.log(val);\n};\n\nfn(\"oi\" + \"feliz\");\n/*\nconst names = [\"Jeff\", \"Jose\", \"Rhino\", \"Caue\"];\nconst div = document.getElementById(\"nomes\")\n// create a loop trough array names and insert each name in the div\nfor (let i = 0) i < names.length; i++) {\n    div.innerHTML += names[i] + \" \";\n}\n*/\n\n//# sourceURL=webpack://projetoWeb/./src/js/app.js?");
 
 /***/ }),
 
-/***/ "./src/scss/app.css":
-/*!**************************!*\
-  !*** ./src/scss/app.css ***!
-  \**************************/
+/***/ "./src/scss/app.scss":
+/*!***************************!*\
+  !*** ./src/scss/app.scss ***!
+  \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://projetoWeb/./src/scss/app.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://projetoWeb/./src/scss/app.scss?");
 
 /***/ })
 

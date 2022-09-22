@@ -1,3 +1,36 @@
+/*
+nav {
+  &.main {
+    background-color: black;
+    box-shadow: 0 0 50px black(0, 0, 0, 0.05);
+  }
+
+  ul {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+
+    li {
+      list-style: none;
+      flex: 1 1 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 60px;
+
+      &:first-child {
+        justify-content: flex-start;
+      }
+
+      img {
+        max-width: 100px;
+        height: auto;
+      }
+    }
+  }
+}
+*/
+
 nav.main {
   background-color: black;
   box-shadow: 0 0 50px black(0, 0, 0, 0.05);

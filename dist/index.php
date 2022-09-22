@@ -9,8 +9,8 @@ include "header.php";
         </div>
         <div class="col-6">
             <h1>Bem vindo</h1>
-            <p>Bem vindo a páina do Senac, a empresa que melhor realiza graduações em tecnologia.</p>
-            <p>Com a melhor infra-estrutura temos a internet banda larga mais fabulosa do país</p>
+            <p>Reborn Fighters.</p>
+            <p>O melhor jogo de luta que você verá, com uma gama imensa de classes e gears.</p>
         </div>
     </div>
     <div class="row">

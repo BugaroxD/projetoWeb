@@ -1,4 +1,4 @@
-import "../scss/app.css";
+import "../scss/app.scss";
 ("use-strict");
 
 const fn = (val) => {

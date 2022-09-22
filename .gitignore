@@ -1,1 +1,4 @@
-node_modules
+**/node_modules/**
+**/assets/**
+yarn.lock
+.gitignore
