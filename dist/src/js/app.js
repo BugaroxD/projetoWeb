@@ -16,7 +16,7 @@
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.scss */ \"./src/scss/app.scss\");\n/* harmony import */ var _formulario__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./formulario */ \"./src/js/formulario.js\");\n\n\"use-strict\";\n\nconsole.log(\"Hello World!\");\nconsole.log(_formulario__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n/*\nconst names = [\"Jeff\", \"Jose\", \"Rhino\", \"Caue\"];\nconst div = document.getElementById(\"nomes\")\n// create a loop trough array names and insert each name in the div\nfor (let i = 0) i < names.length; i++) {\n    div.innerHTML += names[i] + \" \";\n}\n*/\n\n//# sourceURL=webpack://projetoWeb/./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.scss */ \"./src/scss/app.scss\");\n/* harmony import */ var _formulario__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./formulario */ \"./src/js/formulario.js\");\n\n\nconsole.log(\"Hello World!\");\nconsole.log(_formulario__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n/*\nconst names = [\"Jeff\", \"Jose\", \"Rhino\", \"Caue\"];\nconst div = document.getElementById(\"nomes\")\n// create a loop trough array names and insert each name in the div\nfor (let i = 0) i < names.length; i++) {\n    div.innerHTML += names[i] + \" \";\n}\n*/\n\n//# sourceURL=webpack://projetoWeb/./src/js/app.js?");
 
 /***/ }),
 
