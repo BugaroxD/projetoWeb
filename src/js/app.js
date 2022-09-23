@@ -1,4 +1,5 @@
 import "../scss/app.scss";
+("use-strict");
 import form from "./formulario";
 console.log("Hello World!");
 console.log(form);

@@ -1,4 +1,4 @@
-<?php
+<head><link href="src/scss/app.css" rel="stylesheet"></head><?php
 include "header.php";
 ?>
 
