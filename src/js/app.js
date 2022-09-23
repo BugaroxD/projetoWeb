@@ -1,11 +1,8 @@
 import "../scss/app.scss";
-("use-strict");
+import form from "./formulario";
+console.log("Hello World!");
+console.log(form);
 
-const fn = (val) => {
-  return console.log(val);
-};
-
-fn("oi" + "feliz");
 /*
 const names = ["Jeff", "Jose", "Rhino", "Caue"];
 const div = document.getElementById("nomes")

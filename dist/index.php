@@ -1,4 +1,4 @@
-<head><link href="src/scss/app.css" rel="stylesheet"></head><?php
+<?php
 include "header.php";
 ?>
 
@@ -19,7 +19,8 @@ include "header.php";
             <iframe width="660" height="315" src="https://www.youtube.com/embed/ZNBJZ3Shj2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
+</div>
 
-    <?php
-    include "footer.php";
-    ?><script defer src="src/js/app.js"></script>
+<?php
+include "footer.php";
+?><script defer src="src/js/app.js"></script>
