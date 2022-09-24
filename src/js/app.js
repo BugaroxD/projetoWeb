@@ -1,4 +1,6 @@
 import "../scss/app.scss";
+import "bootstrap/dist/css/bootstrap-grid.min.css";
+
 import form from "./formulario";
 console.log(form);
 

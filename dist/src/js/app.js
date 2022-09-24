@@ -16,7 +16,7 @@
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.scss */ \"./src/scss/app.scss\");\n/* harmony import */ var _formulario__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./formulario */ \"./src/js/formulario.js\");\n\n\nconsole.log(_formulario__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n/*\nconst names = [\"Jeff\", \"Jose\", \"Rhino\", \"Caue\"];\nconst div = document.getElementById(\"nomes\")\n// create a loop trough array names and insert each name in the div\nfor (let i = 0) i < names.length; i++) {\n    div.innerHTML += names[i] + \" \";\n}\n*/\n\n//# sourceURL=webpack://projetoWeb/./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.scss */ \"./src/scss/app.scss\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_grid_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap-grid.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap-grid.min.css\");\n/* harmony import */ var _formulario__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./formulario */ \"./src/js/formulario.js\");\n\n\n\nconsole.log(_formulario__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n/*\nconst names = [\"Jeff\", \"Jose\", \"Rhino\", \"Caue\"];\nconst div = document.getElementById(\"nomes\")\n// create a loop trough array names and insert each name in the div\nfor (let i = 0) i < names.length; i++) {\n    div.innerHTML += names[i] + \" \";\n}\n*/\n\n//# sourceURL=webpack://projetoWeb/./src/js/app.js?");
 
 /***/ }),
 
@@ -26,7 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n//const form = document.getElementById(\"formCadastro\");\n//console.log(form);\nvar initForm = function initForm(whatForm) {\n  // buscou o elemento do DOM\n  var formRequired = document.getElementById(whatForm); // buscamos os filhos de input\n\n  var inputs = formRequired.querySelectorAll(\"input\"); // perguntamos se existe algum input\n\n  if (inputs.length > 0) {\n    inputs.forEach(function (input) {\n      input.addEventListener(\"blur\", function () {\n        if (input.value === \"\") {\n          input.classList.add(\"error\");\n        } else {\n          input.classList.remove(\"error\");\n        }\n      });\n    });\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (initForm);\n\n//# sourceURL=webpack://projetoWeb/./src/js/formulario.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n//const form = document.getElementById(\"formCadastro\");\n//console.log(form);\nvar initForm = function initForm(whatForm) {\n  // buscou o elemento do DOM\n  var formRequired = document.getElementById(whatForm); // buscamos os filhos de input\n\n  var inputs = formRequired.querySelectorAll(\"input\"); // perguntamos se existe algum input\n\n  if (inputs) {\n    // se existir, percorremos o array de inputs\n    inputs.forEach(function (input) {\n      // exibir no console o valor de cada input\n      console.log(input.value);\n    });\n  } else {\n    // se não existir, exibimos uma mensagem no console\n    console.log(\"Não existe inputs neste formulário\");\n  }\n};\n\nvar init = function init(whatForm) {\n  // recebe o elemento DOM de acordo com a String do ID\n  var formRequerido = document.getElementById(whatForm); // busca o botão de submit para este formulário\n\n  var submit = formRequerido.querySelector(\"input[type=submit]\"); // adiciona um evento de click no botão\n\n  submit.addEventListener(\"click\", function (event) {\n    // previne que o elemento, no caso o input submit, faça o que ele faz por padrão\n    event.preventDefault(); // chama a função que criamos\n\n    initForm(formRequerido);\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (init);\n\n//# sourceURL=webpack://projetoWeb/./src/js/formulario.js?");
+
+/***/ }),
+
+/***/ "./node_modules/bootstrap/dist/css/bootstrap-grid.min.css":
+/*!****************************************************************!*\
+  !*** ./node_modules/bootstrap/dist/css/bootstrap-grid.min.css ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://projetoWeb/./node_modules/bootstrap/dist/css/bootstrap-grid.min.css?");
 
 /***/ }),
 

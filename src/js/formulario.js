@@ -8,16 +8,29 @@ const initForm = (whatForm) => {
   const inputs = formRequired.querySelectorAll("input");
 
   // perguntamos se existe algum input
-  if (inputs.length > 0) {
+  if (inputs) {
+    // se existir, percorremos o array de inputs
     inputs.forEach((input) => {
-      input.addEventListener("blur", () => {
-        if (input.value === "") {
-          input.classList.add("error");
-        } else {
-          input.classList.remove("error");
-        }
-      });
+      // exibir no console o valor de cada input
+      console.log(input.value);
     });
+  } else {
+    // se não existir, exibimos uma mensagem no console
+    console.log("Não existe inputs neste formulário");
   }
 };
-export default initForm;
+
+const init = (whatForm) => {
+  // recebe o elemento DOM de acordo com a String do ID
+  const formRequerido = document.getElementById(whatForm);
+  // busca o botão de submit para este formulário
+  const submit = formRequerido.querySelector("input[type=submit]");
+  // adiciona um evento de click no botão
+  submit.addEventListener("click", (event) => {
+    // previne que o elemento, no caso o input submit, faça o que ele faz por padrão
+    event.preventDefault();
+    // chama a função que criamos
+    initForm(formRequerido);
+  });
+};
+export default init;

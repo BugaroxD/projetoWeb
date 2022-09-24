@@ -1,29 +1,4 @@
-<footer>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <h5>Fale comigo</h5>
-                <p>Escreva para jefferson@senac.br</p>
-            </div>
-            <div class="col-4">
-                <h5>Escreva pra mim</h5>
-                <p>Rua Visconde de Taunat</p>
-            </div>
-            <div class="col-4">
-                <h5>Siga-me</h5>
-                <p>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                </p>
-            </div>
-        </div>
-    </div>
-
-</footer>
-
-<script src="src/js/app.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 
 </html>
